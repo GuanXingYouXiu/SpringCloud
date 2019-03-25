@@ -1,0 +1,9 @@
+server:
+  port: 18117
+spring:
+  application:
+    name: discovery2
+eureka:
+  client:
+    service-url:
+      defaultZone: http://user:password@localhost:18115/eureka/
